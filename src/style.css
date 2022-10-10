@@ -1,0 +1,86 @@
+h1 {
+  color: #42a5f5;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  padding-bottom: 0px;
+  padding-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+#search-input {
+  padding-top: 20px;
+}
+
+#current {
+  text-align: center;
+  width: 110px;
+}
+
+.weekday {
+  color: #146ec5;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-left: 0px;
+  margin-left: 22px;
+  list-style-type: none;
+}
+
+.emoji {
+  font-size: 60px;
+  padding-left: 10px;
+}
+
+.temperature {
+  color: #42a5f5;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+}
+
+.celsius {
+  color: #146ec5;
+  position: relative;
+  top: -32px;
+}
+
+.info {
+  color: #146ec5;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  list-style-type: none;
+  margin-right: 30px;
+  margin-top: 3px;
+  text-align: right;
+}
+
+.weather-app {
+  background-color: #f9f7fe;
+  color: #42a5f5;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 15px;
+}
+
+.days {
+  color: #146ec5;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+
+  text-align: center;
+}
+
+.emojis {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.max {
+  color: #146ec5;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
