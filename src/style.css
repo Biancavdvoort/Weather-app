@@ -9,7 +9,7 @@ h1 {
 }
 
 #search-input {
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 #current {
@@ -83,4 +83,9 @@ h1 {
   font-size: 18px;
   text-align: center;
   font-family: "Roboto", sans-serif;
+}
+
+.github-link {
+  font-family: "Roboto", sans-serif;
+  margin-left: 135px;
 }
