@@ -34,7 +34,7 @@ function showTemperature(response) {
   );
   console.log(response.data);
   document.querySelector("#weather-conditions").innerHTML =
-    response.data.weather[0].main;
+    response.data.weather[0].description;
   document.querySelector("#feels-like").innerHTML = Math.round(
     response.data.main.feels_like
   );
