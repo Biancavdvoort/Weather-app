@@ -42,6 +42,7 @@ function displayTemperature(response) {
     "src",
     `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`
   );
+  iconElement.setAttribute("alt", response.data.condition.description);
 }
 
 let apiKey = "47ctcdaecb3f4bd83044o3bbac34f29d";
