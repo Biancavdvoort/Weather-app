@@ -27,7 +27,7 @@ h1 {
 
 .emoji {
   font-size: 60px;
-  padding-left: 10px;
+  margin-top: -25px;
 }
 
 .temperature {
