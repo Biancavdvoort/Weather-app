@@ -8,13 +8,17 @@ h1 {
   margin-bottom: 0px;
 }
 
-#search-input {
+.search-input {
   padding-top: 25px;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
 }
 
 .weekday {
   color: #146ec5;
-  font-family: "Roboto", sans-serif;
+
   font-size: 18px;
   padding-left: 0px;
   margin-left: 22px;
@@ -62,27 +66,6 @@ h1 {
   padding: 15px;
 }
 
-.days {
-  color: #146ec5;
-  font-family: "Roboto", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.emojis {
-  font-size: 30px;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-}
-
-.max {
-  color: #146ec5;
-  font-size: 18px;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-}
-
 .github-link {
   font-family: "Roboto", sans-serif;
   text-align: left;
@@ -96,4 +79,26 @@ h1 {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  color: #146ec5;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-prediction-icon {
+  width: 50px;
+}
+
+.weather-forecast-date {
+  font-size: 17px;
+}
+
+.weather-forecast-temperature {
+  font-size: 15px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
